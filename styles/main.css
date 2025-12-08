@@ -1,7 +1,23 @@
 .title-div {
+  display: flex;
+  justify-content: center;
 }
 .title {
   color: white;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 90px;
+  font-family: Ndot;
+}
+.project-example {
+  display: inline-block;
+}
+.project-img-div {
+  width: 500px;
+}
+.project-img {
+  width: 100%;
+}
+.examples {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }

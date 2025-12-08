@@ -6,3 +6,7 @@
   font-family: Robotoi;
   src: url(/fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf);
 }
+@font-face {
+  font-family: Ndot;
+  src: url(/fonts/BitcountPropSingle-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf);
+}
