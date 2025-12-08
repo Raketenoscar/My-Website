@@ -9,15 +9,39 @@
   font-family: Ndot;
 }
 .project-example {
-  display: inline-block;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(64, 64, 64, 0.6);
+  border: 5px solid rgba(64, 64, 64, 0.9);
+  border-radius: 10px;
+  cursor: pointer;
 }
 .project-img-div {
-  width: 500px;
+  width: 600px;
 }
 .project-img {
   width: 100%;
 }
 .examples {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
+}
+.project-description-div {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+.project-description {
+  text-align: center;
+  font-size: 18px;
+}
+.project-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.project-title-div {
+  width: 600px;
+  display: flex;
+  justify-content: center;
 }
