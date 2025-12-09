@@ -5,22 +5,23 @@
 .title {
   color: white;
   font-weight: bold;
-  font-size: 90px;
+  font-size: 5.2vw;
   font-family: Ndot, Arial, Helvetica, sans-serif;
+  height: 10vh;
 }
 .test {
   display: flex;
   justify-content: center;
 }
 .project-example {
-  width: 600px;
+  width: 33vw;
   background-color: rgba(64, 64, 64, 0.6);
-  border: 5px solid rgba(64, 64, 64, 0.9);
-  border-radius: 10px;
+  border: 0.3vw solid rgba(64, 64, 64, 0.9);
+  border-radius: 0.6vw;
   cursor: pointer;
 }
 .project-img-div {
-  width: 600px;
+  width: 33vw;
 }
 .project-img {
   width: 100%;
@@ -28,23 +29,23 @@
 .examples {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 100px;
+  column-gap: 6vw;
 }
 .project-description-div {
-  width: 600px;
+  width: 33vw;
   display: flex;
   justify-content: center;
 }
 .project-description {
   text-align: center;
-  font-size: 18px;
+  font-size: 1vw;
 }
 .project-title {
-  font-size: 20px;
+  font-size: 1.2vw;
   font-weight: bold;
 }
 .project-title-div {
-  width: 600px;
+  width: 33vw;
   display: flex;
   justify-content: center;
 }
