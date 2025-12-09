@@ -1,0 +1,30 @@
+hmtl:
+  <div class="kind-div">
+    <table border="1" class="kind-table">
+      <tr>
+        <th>Name</th>
+        <th>Masse</th>
+      </tr>
+      <tr>
+        <td>Stellare Schwarze Löcher</td>
+        <td>Mehrere Sonnenmassen</td>
+      </tr>
+      <tr>
+        <td>Supermassive Schwarze Löcher</td>
+        <td>Millionen bis Milliarden Sonnenmassen</td>
+      </tr>
+      <tr>
+        <td>Mittelschwere Schwarze Löcher</td>
+        <td>100-100.000 Sonnenmassen</td>
+      </tr>
+      <tr>
+        <td>Mikroskopische Schwarze Löcher</td>
+        <td>Kleiner als Sonnenmasse</td>
+      </tr>
+    </table>
+  </div>
+  <div class="real-div">
+    <h2 class="real-h">Ein echtes Bild eines schwarzen Lochs</h2>
+    <img class="real-img" src="img/foto-schwarzes-loch-mit-magnetfeldern-768432412.jpg" alt="">
+  </div>
+</div>

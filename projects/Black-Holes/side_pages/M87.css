@@ -1,0 +1,35 @@
+p,
+h1,
+h2 {
+  font-family: Roboto;
+}
+.title {
+  font-size: 50px;
+  color: coral;
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-color: #1a1a1a;
+}
+.info {
+  color: white;
+  width: 700px;
+  font-size: 20px;
+  text-align: center;
+}
+.info-h {
+  color: white;
+}
+.bild {
+  width: 800px;
+  height: 500px;
+  object-fit: cover;
+  object-position: right;
+}
+.everything-1 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

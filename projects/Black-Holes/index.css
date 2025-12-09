@@ -1,0 +1,218 @@
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: orange;
+}
+.everything {
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-image: url("img/background-image.jpg");
+  background-size: cover;
+}
+.def-div {
+  display: inline-block;
+  border-color: rgba(55, 50, 58, 0.733);
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgba(55, 50, 58, 0.733);
+  width: 400px;
+  position: absolute;
+  left: 0;
+  z-index: 100;
+}
+.def-h {
+  color: white;
+  margin-top: 0;
+  padding-top: 17px;
+}
+.def {
+  color: white;
+  font-size: 18px;
+  padding: 2px;
+}
+.origin-div {
+  position: absolute;
+  right: 0;
+  border-color: rgba(55, 50, 58, 0.733);
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgba(55, 50, 58, 0.733);
+  width: 400px;
+}
+.origin-h {
+  color: white;
+  padding: 2px;
+}
+.origin {
+  color: white;
+  font-size: 17px;
+  padding: 2px;
+}
+.M87 {
+  width: 200px;
+  vertical-align: middle;
+}
+.Sag {
+  width: 120px;
+  vertical-align: middle;
+}
+.sim {
+  height: 80px;
+  width: 80px;
+  vertical-align: middle;
+  border-radius: 100px;
+  object-fit: cover;
+}
+.sim-div,
+.M87-div {
+  display: block;
+}
+.Sag-div {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 480px;
+}
+.M87-div {
+  margin-left: 680px;
+}
+.sim-div {
+  margin-top: 40px;
+  margin-left: 420px;
+}
+.inter {
+  width: 550px;
+  height: 700px;
+  position: absolute;
+  right: 410px;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  cursor: pointer;
+}
+.source-div {
+  position: absolute;
+  bottom: 0;
+}
+.most-holes-div {
+  position: absolute;
+  left: 0;
+}
+@media (min-width: 2300px) {
+  .def-h {
+    font-size: 30px;
+  }
+  .def {
+    font-size: 20px;
+  }
+  .def-div {
+    width: 440px;
+  }
+  .origin-h {
+    font-size: 30px;
+  }
+  .origin {
+    font-size: 19px;
+  }
+  .origin-div {
+    width: 465px;
+  }
+  .inter {
+    width: 650px;
+    right: 474px;
+    top: 150px;
+    height: 720px;
+  }
+  .most-holes-div {
+    left: 40px;
+    top: 220px;
+  }
+  .M87 {
+    width: 280px;
+    margin-left: 90px;
+  }
+  .Sag {
+    width: 200px;
+    margin-left: 40px;
+  }
+  .sim {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 1800px) {
+  .inter {
+    width: 450px;
+    height: 600px;
+    top: 80px;
+  }
+  .M87 {
+    width: 150px;
+  }
+  .def {
+    font-size: 17px;
+  }
+  .origin {
+    font-size: 15px;
+  }
+  .origin-div {
+    width: 420px;
+  }
+}
+@media (max-width: 1600px) {
+  .origin {
+    font-size: 14.5px;
+  }
+  .def {
+    font-size: 15px;
+  }
+  .M87 {
+    width: 120px;
+    margin-top: 50px;
+    margin-left: -90px;
+  }
+  .Sag {
+    width: 100px;
+  }
+  .sim {
+    width: 60px;
+    height: 60px;
+  }
+  .inter {
+    width: 340px;
+    height: 500px;
+    right: 430px;
+  }
+}
+.source-h {
+  color: white;
+}
+.img-div {
+  width: 200px;
+  height: 50px;
+}
+.img-1 {
+  width: 50px;
+  display: block;
+}
+.img-1-div {
+  display: inline-block;
+}
+.img-2 {
+  width: 50px;
+  display: block;
+}
+.img-2-div {
+  display: inline-block;
+}
+.img-3 {
+  width: 50px;
+  display: block;
+  border-radius: 100px;
+}
+.img-3-div {
+  display: inline-block;
+}
