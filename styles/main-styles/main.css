@@ -19,6 +19,7 @@
   border: 0.3vw solid rgba(64, 64, 64, 0.9);
   border-radius: 0.9vw;
   cursor: pointer;
+  transition: background-color 0.25s;
 }
 .project-img-div {
   width: 33vw;
@@ -48,4 +49,10 @@
   width: 33vw;
   display: flex;
   justify-content: center;
+}
+.project-example:hover {
+  background-color: rgba(64, 64, 64, 0.9);
+}
+.project-example:active {
+  background-color: rgba(64, 64, 64);
 }
