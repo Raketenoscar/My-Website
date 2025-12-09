@@ -8,10 +8,12 @@
   font-size: 90px;
   font-family: Ndot;
 }
+.test {
+  display: flex;
+  justify-content: center;
+}
 .project-example {
   width: 600px;
-  display: flex;
-  flex-direction: column;
   background-color: rgba(64, 64, 64, 0.6);
   border: 5px solid rgba(64, 64, 64, 0.9);
   border-radius: 10px;
@@ -24,8 +26,9 @@
   width: 100%;
 }
 .examples {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
 }
 .project-description-div {
   width: 600px;

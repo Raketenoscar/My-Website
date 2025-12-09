@@ -18,7 +18,7 @@
   </head>
   <body>
     <!--Header-->
-    <div class="header">
+    <header class="header">
       <div class="about-me-div">
         <a class="about-me" href="about-me.html">Über Mich</a>
       </div>
@@ -28,26 +28,42 @@
       <div class="projects-div">
         <a class="projects" href="">Meine Projekte</a>
       </div>
-    </div>
+    </header>
     <!--Main Part-->
-    <div class="main">
+    <main class="main">
       <div class="title-div"><p class="title">Raketenoscar</p></div>
-      <div class="examples">
-        <div onclick="blackHoles()" class="project-example">
-          <div class="project-title-div">
-            <p class="project-title">Black-Holes</p>
+      <div class="test">
+        <div class="examples">
+          <div onclick="blackHoles()" class="project-example">
+            <div class="project-title-div">
+              <p class="project-title">Black-Holes</p>
+            </div>
+            <div class="project-img-div">
+              <img class="project-img" src="img/black-holes-img.png" />
+            </div>
+            <div class="project-description-div">
+              <p class="project-description">
+                Ein Schulprojekt in dem ich eine kleine Website über Schwarze
+                Löcher geschrieben habe.
+              </p>
+            </div>
           </div>
-          <div class="project-img-div">
-            <img class="project-img" src="img/black-holes-img.png" />
-          </div>
-          <div class="project-description-div">
-            <p class="project-description">
-              Ein kleines Schulprojekt in dem ich eine kleine Website über
-              Schwarze Löcher geschrieben habe.
-            </p>
+          <div onclick="syntaxRegeln()" class="project-example">
+            <div class="project-title-div">
+              <p class="project-title">Syntax und Semantik Regeln</p>
+            </div>
+            <div class="project-img-div">
+              <img class="project-img" src="img/syntax-semantik.png" />
+            </div>
+            <div class="project-description-div">
+              <p class="project-description">
+                Ein Schulprojekt in dem ich die Wichtigsten Syntax und Semantik
+                Regeln zeige.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>

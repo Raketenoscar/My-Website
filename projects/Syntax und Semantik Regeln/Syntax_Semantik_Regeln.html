@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="/img/icons8-schwarzes-loch-60.png"
+      type="image/x-icon"
+    />
+    <style>
+      p,
+      h1,
+      h2,
+      li {
+        font-family: Roboto;
+      }
+      .title {
+        color: rgb(82, 182, 36);
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+      }
+      .syntax-h {
+        font-size: 30px;
+      }
+      .example {
+        display: inline;
+        background-color: rgba(220, 220, 220, 0.5);
+        padding: 4px;
+        border-radius: 4px;
+        color: blue;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+    </style>
+    <title>Syntax Regeln</title>
+  </head>
+  <body>
+    <h1 class="title">Syntax und Semantik von HTML</h1>
+      <h2 class="syntax-h">Syntax:</h2>
+      <ul>
+        <li>
+          HTML besteht aus Elementen mit öffnendem und schließendem Tag
+          <p class="example">&lt;p&gt;Inhalt&lt;/p&gt;</p>
+        </li>
+        <li>
+          Fast alle Tags werden mit einem "closing tag" geschlossen
+          <p class="example">&lt;/p&gt;</p>
+        </li>
+        <li>
+          Es gibt Attribute welche im offenen Tag eines Elements stehen und
+          immer von Anführungszeichen umgeben sind
+          <p class="example">&lt;img src="bild.jpg"&gt;</p>
+        </li>
+        <li>HTML tags können groß oder klein geschrieben sein</li>
+        <li>
+          Es gibt Elemente die keinen "closing tag" haben
+          <p class="example">&lt;img&gt;</p>
+        </li>
+        <li>
+          Es gibt eine bestimmte Ordnung wie eine HTML datei aufgebaut ist. 1.
+          &lt;html&gt; 2. &lt;head&gt; 3. &lt;body&gt;
+        </li>
+        <li>
+          Falsche Tags oder Attribute werden nicht angezeigt oder Falsch
+          angezeigt
+        </li>
+        <li>
+          Es gibt Kommentare welche dafür da sind deinen Code übersichtlicher zu
+          machen und werden von der Website ignoriert
+          <p class="example">&lt;!--Kommentar--&gt;</p>
+          <li>
+            Der HTML-Code startet mit <p class="example">&lt;!DOCTYPE html&gt;</p>
+          </li>
+        </li>
+      </ul>
+      <h2 class="syntax-h">Semantik:</h2>
+      <ul>
+        <li>
+          <p class="example">&lt;html&gt;</p> Wurzelelements eines HTML-Dokuments
+        </li>
+        <li>
+          <p class="example">&lt;head&gt;</p> Enthält Metadaten und Informationen über das Dokument
+        </li>
+        <li>
+          <p class="example">&lt;title&gt;</p> Definiert den Titel der Webseite, der im Browser-Tab angezeigt wird
+        </li>
+        <li>
+          <p class="example">&lt;body&gt;</p> Enthält den sichtbaren Inhalt der Website
+        </li>
+        <li>
+          <p class="example">&lt;h1&gt;</p> bis <p class="example">&lt;h6&gt;</p> Überschriften mit verschiedenen größen
+        </li>
+        <li>
+          <p class="example">&lt;p&gt;</p> Erstellt ein Textfeld
+        </li>
+        <li>
+          <p class="example">&lt;a&gt;</p> Erstellt einen klickbaren Link
+        </li>
+        <li>
+          <p class="example">&lt;img&gt;</p> Ermöglicht ein Bild einzufügen
+        </li>
+        <li>
+          <p class="example">&lt;div&gt;</p> Container welcher sogut wie alle Elemente halten kann
+        </li>
+        <li>
+          <p class="example">&lt;ul&gt;</p> Erzeugt eine ungeordnete Liste
+        </li>
+        <li>
+          <p class="example">&lt;ol&gt;</p> Erzeugt eine geordnete Liste
+        </li>
+        <li>
+          <p class="example">&lt;li&gt;</p> Wird in <p class="example">&lt;ol&gt;</p> oder <p class="example">&lt;ul&gt;</p> geschrieben um die Liste anzuzeigen
+        </li>
+      </ul>
+  </body>
+</html>
