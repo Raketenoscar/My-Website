@@ -6,7 +6,7 @@
   color: white;
   font-weight: bold;
   font-size: 90px;
-  font-family: Ndot;
+  font-family: Ndot, Arial, Helvetica, sans-serif;
 }
 .test {
   display: flex;
