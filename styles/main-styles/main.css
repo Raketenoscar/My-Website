@@ -9,7 +9,7 @@
   font-family: Ndot, Arial, Helvetica, sans-serif;
   height: 10vh;
 }
-.test {
+.projects-all {
   display: flex;
   justify-content: center;
 }
@@ -17,7 +17,7 @@
   width: 33vw;
   background-color: rgba(64, 64, 64, 0.6);
   border: 0.3vw solid rgba(64, 64, 64, 0.9);
-  border-radius: 0.6vw;
+  border-radius: 0.9vw;
   cursor: pointer;
 }
 .project-img-div {

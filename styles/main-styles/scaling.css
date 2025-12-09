@@ -1,0 +1,42 @@
+/*Handy Scaling*/
+@media (max-width: 460px) and (max-height: 900px) {
+  body {
+    background-image: url("/img/background-image-phone.jpg");
+  }
+  .examples {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+  .title {
+    font-size: 12vw;
+    height: 6vh;
+  }
+  .project-description {
+    font-size: 3vw;
+  }
+  .project-img-div,
+  .project-example,
+  .project-title-div,
+  .project-description-div {
+    width: 80vw;
+  }
+  .project-title {
+    font-size: 4vw;
+  }
+  .project-example {
+    margin-bottom: 5vh;
+    border-width: 0.8vw;
+    border-radius: 2vw;
+  }
+  .about-me,
+  .changelogs,
+  .projects {
+    font-size: 3.6vw;
+  }
+  .projects-div {
+    right: 5.5vw;
+  }
+  .about-me-div {
+    margin-left: 2.6vw;
+  }
+}
