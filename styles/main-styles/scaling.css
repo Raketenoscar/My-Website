@@ -1,5 +1,5 @@
 /*Handy Scaling*/
-@media (max-width: 460px) and (max-height: 900px) {
+@media (max-width: 700px) {
   body {
     background-image: url("/img/background-image-phone.jpg");
   }
@@ -38,5 +38,130 @@
   }
   .about-me-div {
     margin-left: 2.6vw;
+  }
+}
+/*Tablet Styling*/
+@media (min-width: 701px) and (max-width: 950px) {
+  body {
+    background-image: url("/img/background-image-phone.jpg");
+  }
+  .examples {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+  .title {
+    font-size: 8vw;
+    height: 7vh;
+  }
+  .project-description {
+    font-size: 2vw;
+  }
+  .project-img-div,
+  .project-example,
+  .project-title-div,
+  .project-description-div {
+    width: 50vw;
+  }
+  .project-title {
+    font-size: 3vw;
+  }
+  .project-example {
+    margin-bottom: 5vh;
+    border-width: 0.5vw;
+    border-radius: 2vw;
+  }
+  .about-me,
+  .changelogs,
+  .projects {
+    font-size: 2vw;
+  }
+  .projects-div {
+    right: 5.5vw;
+  }
+  .about-me-div {
+    margin-left: 2.6vw;
+  }
+}
+/*Kleine Desktops*/
+@media (min-width: 951px) and (max-width: 1300px) {
+  body {
+    background-image: url("/img/background-image-small-desktop.jpg");
+  }
+  .examples {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3vw;
+  }
+  .title {
+    font-size: 8vw;
+    height: 7vh;
+  }
+  .project-description {
+    font-size: 1.5vw;
+  }
+  .project-img-div,
+  .project-example,
+  .project-title-div,
+  .project-description-div {
+    width: 40vw;
+  }
+  .project-title {
+    font-size: 2vw;
+  }
+  .project-example {
+    margin-bottom: 5vh;
+    border-width: 0.5vw;
+    border-radius: 2vw;
+  }
+  .about-me,
+  .changelogs,
+  .projects {
+    font-size: 2vw;
+  }
+  .projects-div {
+    right: 5.5vw;
+  }
+  .about-me-div {
+    margin-left: 2.6vw;
+  }
+}
+@media (min-width: 1301px) and (max-width: 1720px) {
+  body {
+    background-image: url("/img/background-image-bigger-destkop.jpg");
+  }
+  .examples {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3vw;
+  }
+  .title {
+    font-size: 6.5vw;
+    height: 7.5vh;
+  }
+  .project-description {
+    font-size: 1.3vw;
+  }
+  .project-img-div,
+  .project-example,
+  .project-title-div,
+  .project-description-div {
+    width: 45vw;
+  }
+  .project-title {
+    font-size: 1.5vw;
+  }
+  .project-example {
+    margin-bottom: 5vh;
+    border-width: 0.3vw;
+    border-radius: 2vw;
+  }
+  .about-me,
+  .changelogs,
+  .projects {
+    font-size: 1.4vw;
+  }
+  .projects-div {
+    right: 3vw;
+  }
+  .about-me-div {
+    margin-left: 1.3vw;
   }
 }
