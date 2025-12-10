@@ -1,0 +1,11 @@
+.title-div {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-family: Ndot;
+  font-size: 5vw;
+  font-weight: bold;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}

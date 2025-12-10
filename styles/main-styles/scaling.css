@@ -124,6 +124,7 @@
     margin-left: 2.6vw;
   }
 }
+/*Desktops*/
 @media (min-width: 1301px) and (max-width: 1720px) {
   body {
     background-image: url("/img/background-image-bigger-destkop.jpg");
