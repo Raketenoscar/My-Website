@@ -24,11 +24,15 @@
   .def-div {
     position: static;
     width: 60vw;
+    border-width: 0.6vw;
+    border-radius: 1vw;
   }
   .origin-div {
     position: static;
     z-index: 100;
     width: 60vw;
+    border-width: 0.6vw;
+    border-radius: 1vw;
   }
   .flex {
     display: flex;
@@ -36,7 +40,7 @@
   }
   .origin-h,
   .def-h {
-    font-size: 6vw;
+    font-size: 4.8vw;
   }
   .origin,
   .def {
