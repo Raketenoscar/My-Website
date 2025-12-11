@@ -4,7 +4,7 @@
     background-image: url("img/background-image-phones.jpg");
   }
   .title {
-    font-size: 10vw;
+    font-size: 9vw;
   }
   ul,
   ol {
@@ -19,6 +19,7 @@
   .everything {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 5vw;
   }
   .def-div {
     position: static;
