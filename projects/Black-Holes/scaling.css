@@ -1,0 +1,53 @@
+/*Handy Scaling*/
+@media (max-width: 700px) {
+  body {
+    background-image: url("img/background-image-phones.jpg");
+  }
+  .title {
+    font-size: 10vw;
+  }
+  ul,
+  ol {
+    margin-left: 5vw;
+  }
+  .def-div {
+    width: 24vw;
+  }
+  .inter {
+    width: 0;
+  }
+  .everything {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .def-div {
+    position: static;
+    width: 60vw;
+  }
+  .origin-div {
+    position: static;
+    z-index: 100;
+    width: 60vw;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+  }
+  .origin-h,
+  .def-h {
+    font-size: 6vw;
+  }
+  .origin,
+  .def {
+    font-size: 2.1vw;
+  }
+}
+/*Tablet Styling*/
+@media (min-width: 701px) and (max-width: 950px) {
+}
+/*Kleine Desktops*/
+@media (min-width: 951px) and (max-width: 1300px) {
+}
+/*Desktops*/
+@media (min-width: 1301px) and (max-width: 1720px) {
+}
