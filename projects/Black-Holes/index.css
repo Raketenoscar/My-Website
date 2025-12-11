@@ -1,7 +1,7 @@
 .title {
   display: flex;
   justify-content: center;
-  font-size: 50px;
+  font-size: 2.8vw;
   color: orange;
 }
 .everything {
@@ -15,11 +15,11 @@ body {
 .def-div {
   display: inline-block;
   border-color: rgba(55, 50, 58, 0.733);
-  border-width: 5px;
+  border-width: 0.3vw;
   border-style: solid;
-  border-radius: 10px;
+  border-radius: 0.6vw;
   background-color: rgba(55, 50, 58, 0.733);
-  width: 400px;
+  width: 21vw;
   position: absolute;
   left: 0;
   z-index: 100;
@@ -27,45 +27,47 @@ body {
 .def-h {
   color: white;
   margin-top: 0;
-  padding-top: 17px;
+  padding-top: 1vw;
+  font-size: 1.3vw;
 }
 .def {
   color: white;
-  font-size: 18px;
-  padding: 2px;
+  font-size: 1vw;
+  padding: 0.05vw;
 }
 .origin-div {
   position: absolute;
   right: 0;
   border-color: rgba(55, 50, 58, 0.733);
-  border-width: 5px;
+  border-width: 0.3vw;
   border-style: solid;
-  border-radius: 10px;
+  border-radius: 0.6vw;
   background-color: rgba(55, 50, 58, 0.733);
-  width: 400px;
+  width: 21vw;
 }
 .origin-h {
   color: white;
-  padding: 2px;
+  padding-top: 0.05vw;
+  font-size: 1.3vw;
 }
 .origin {
   color: white;
-  font-size: 17px;
-  padding: 2px;
+  font-size: 0.9vw;
+  padding: 0.05vw;
 }
 .M87 {
-  width: 200px;
+  width: 12vw;
   vertical-align: middle;
 }
 .Sag {
-  width: 120px;
+  width: 8vw;
   vertical-align: middle;
 }
 .sim {
-  height: 80px;
-  width: 80px;
+  height: 5vw;
+  width: 5vw;
   vertical-align: middle;
-  border-radius: 100px;
+  border-radius: 100vw;
   object-fit: cover;
 }
 .sim-div,
@@ -74,21 +76,21 @@ body {
 }
 .Sag-div {
   display: inline-block;
-  margin-top: 30px;
-  margin-left: 480px;
+  margin-top: 2vw;
+  margin-left: 26vw;
 }
 .M87-div {
-  margin-left: 680px;
+  margin-left: 36vw;
 }
 .sim-div {
-  margin-top: 40px;
-  margin-left: 420px;
+  margin-top: 2.3vw;
+  margin-left: 22.5vw;
 }
 .inter {
-  width: 550px;
-  height: 700px;
+  width: 24vw;
+  height: 38vw;
   position: absolute;
-  right: 410px;
+  right: 21.4vw;
   background-color: rgba(240, 248, 255, 0);
   border: none;
   cursor: pointer;
@@ -101,117 +103,32 @@ body {
   position: absolute;
   left: 0;
 }
-@media (min-width: 2300px) {
-  .def-h {
-    font-size: 30px;
-  }
-  .def {
-    font-size: 20px;
-  }
-  .def-div {
-    width: 440px;
-  }
-  .origin-h {
-    font-size: 30px;
-  }
-  .origin {
-    font-size: 19px;
-  }
-  .origin-div {
-    width: 465px;
-  }
-  .inter {
-    width: 650px;
-    right: 474px;
-    top: 150px;
-    height: 720px;
-  }
-  .most-holes-div {
-    left: 40px;
-    top: 220px;
-  }
-  .M87 {
-    width: 280px;
-    margin-left: 90px;
-  }
-  .Sag {
-    width: 200px;
-    margin-left: 40px;
-  }
-  .sim {
-    width: 100px;
-    height: 100px;
-  }
-}
-@media (max-width: 1800px) {
-  .inter {
-    width: 450px;
-    height: 600px;
-    top: 80px;
-  }
-  .M87 {
-    width: 150px;
-  }
-  .def {
-    font-size: 17px;
-  }
-  .origin {
-    font-size: 15px;
-  }
-  .origin-div {
-    width: 420px;
-  }
-}
-@media (max-width: 1600px) {
-  .origin {
-    font-size: 14.5px;
-  }
-  .def {
-    font-size: 15px;
-  }
-  .M87 {
-    width: 120px;
-    margin-top: 50px;
-    margin-left: -90px;
-  }
-  .Sag {
-    width: 100px;
-  }
-  .sim {
-    width: 60px;
-    height: 60px;
-  }
-  .inter {
-    width: 340px;
-    height: 500px;
-    right: 430px;
-  }
-}
 .source-h {
   color: white;
+  font-size: 0.9vw;
 }
 .img-div {
-  width: 200px;
-  height: 50px;
+  width: 15vw;
+  height: 3vw;
 }
 .img-1 {
-  width: 50px;
+  width: 2.5vw;
   display: block;
 }
 .img-1-div {
   display: inline-block;
 }
 .img-2 {
-  width: 50px;
+  width: 2.5vw;
   display: block;
 }
 .img-2-div {
   display: inline-block;
 }
 .img-3 {
-  width: 50px;
+  width: 2.5vw;
   display: block;
-  border-radius: 100px;
+  border-radius: 100vw;
 }
 .img-3-div {
   display: inline-block;
