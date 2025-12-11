@@ -62,6 +62,21 @@
   .img-3 {
     width: 9vw;
   }
+  .M87 {
+    width: 22vw;
+  }
+  .Sag {
+    width: 16vw;
+  }
+  .sim {
+    height: 10vw;
+    width: 10vw;
+  }
+  .most-holes-div {
+    right: 1vw;
+    height: 50vw;
+    top: 35vw;
+  }
 }
 /*Tablet Styling*/
 @media (min-width: 701px) and (max-width: 950px) {
