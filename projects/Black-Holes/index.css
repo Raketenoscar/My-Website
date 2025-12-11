@@ -62,16 +62,16 @@ body {
   padding: 0.05vw;
 }
 .M87 {
-  width: 12vw;
+  width: 22vw;
   vertical-align: middle;
 }
 .Sag {
-  width: 8vw;
+  width: 16vw;
   vertical-align: middle;
 }
 .sim {
-  height: 5vw;
-  width: 5vw;
+  height: 10vw;
+  width: 10vw;
   vertical-align: middle;
   border-radius: 100vw;
   object-fit: cover;
@@ -97,17 +97,19 @@ body {
   height: 38vw;
   position: absolute;
   right: 21.4vw;
-  background-color: rgba(240, 248, 255, 0);
+  background-color: rgba(255, 254, 240, 0);
   border: none;
   cursor: pointer;
 }
-.source-div {
-  position: absolute;
-  bottom: 0;
+.source-flex {
+  display: flex;
+  justify-content: center;
 }
 .most-holes-div {
   position: absolute;
-  left: 0;
+  right: 1vw;
+  height: 50vh;
+  top: 35vw;
 }
 .source-h {
   color: white;
