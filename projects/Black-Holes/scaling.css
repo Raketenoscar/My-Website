@@ -1,5 +1,5 @@
 /*Handy Scaling*/
-@media (max-width: 700px) {
+@media (max-width: 550px) {
   body {
     background-image: url("img/background-image-phone.jpg");
   }
@@ -11,9 +11,6 @@
   ul,
   ol {
     margin-left: 5vw;
-  }
-  .def-div {
-    width: 24vw;
   }
   .inter {
     width: 35vw;
@@ -85,10 +82,91 @@
   }
 }
 /*Tablet Styling*/
-@media (min-width: 701px) and (max-width: 950px) {
+@media (min-width: 551px) and (max-width: 850px) {
+  body {
+    background-image: url("img/background-image-tablet.jpg");
+  }
+  .title {
+    font-size: 5.5vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+  }
+  ul,
+  ol {
+    margin-left: 5vw;
+  }
+  .inter {
+    width: 35vw;
+    height: 70vw;
+    position: absolute;
+    top: 90vw;
+    right: 0;
+  }
+  .everything {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5vw;
+  }
+  .def-div {
+    position: static;
+    width: 50vw;
+    border-width: 0.6vw;
+    border-radius: 1vw;
+  }
+  .origin-div {
+    position: static;
+    z-index: 100;
+    width: 50vw;
+    border-width: 0.6vw;
+    border-radius: 1vw;
+  }
+  .flex {
+    display: flex;
+    justify-content: left;
+  }
+  .origin-h,
+  .def-h {
+    font-size: 3.3vw;
+  }
+  .origin,
+  .def {
+    font-size: 2vw;
+  }
+  .source-h {
+    font-size: 2vw;
+  }
+  .img-div {
+    width: 28vw;
+    height: 9vw;
+  }
+  .source-div {
+    top: 140vw;
+    right: 0;
+    width: 20vw;
+  }
+  .img-1,
+  .img-2,
+  .img-3 {
+    width: 5vw;
+  }
+  .M87 {
+    width: 18vw;
+  }
+  .Sag {
+    width: 14vw;
+  }
+  .sim {
+    height: 8vw;
+    width: 8vw;
+  }
+  .most-holes-div {
+    left: 43vw;
+    height: 50vw;
+    top: 20vw;
+  }
 }
 /*Kleine Desktops*/
-@media (min-width: 951px) and (max-width: 1300px) {
+@media (min-width: 851px) and (max-width: 1300px) {
 }
 /*Desktops*/
 @media (min-width: 1301px) and (max-width: 1720px) {
