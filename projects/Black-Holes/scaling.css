@@ -12,13 +12,6 @@
   ol {
     margin-left: 5vw;
   }
-  .inter {
-    width: 35vw;
-    height: 70vw;
-    position: absolute;
-    top: 90vw;
-    right: 0;
-  }
   .everything {
     display: grid;
     grid-template-columns: 1fr;
@@ -95,13 +88,6 @@
   ol {
     margin-left: 5vw;
   }
-  .inter {
-    width: 35vw;
-    height: 70vw;
-    position: absolute;
-    top: 90vw;
-    right: 0;
-  }
   .everything {
     display: grid;
     grid-template-columns: 1fr;
@@ -167,6 +153,80 @@
 }
 /*Kleine Desktops*/
 @media (min-width: 851px) and (max-width: 1300px) {
+    body {
+    background-image: url("img/background-image-small.jpg");
+  }
+  .title {
+    font-size: 3.8vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+  }
+  ul,
+  ol {
+    margin-left: 5vw;
+  }
+  .everything {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5vw;
+  }
+  .def-div {
+    position: static;
+    width: 40vw;
+    border-width: 0.4vw;
+    border-radius: 1vw;
+  }
+  .origin-div {
+    position: static;
+    z-index: 100;
+    width: 40vw;
+    border-width: 0.4vw;
+    border-radius: 1vw;
+  }
+  .flex {
+    display: flex;
+    justify-content: left;
+  }
+  .origin-h,
+  .def-h {
+    font-size: 3.3vw;
+  }
+  .origin,
+  .def {
+    font-size: 2vw;
+  }
+  .source-h {
+    font-size: 2vw;
+  }
+  .img-div {
+    width: 28vw;
+    height: 9vw;
+  }
+  .source-div {
+    top: 140vw;
+    right: 0;
+    width: 20vw;
+  }
+  .img-1,
+  .img-2,
+  .img-3 {
+    width: 5vw;
+  }
+  .M87 {
+    width: 18vw;
+  }
+  .Sag {
+    width: 14vw;
+  }
+  .sim {
+    height: 8vw;
+    width: 8vw;
+  }
+  .most-holes-div {
+    left: 43vw;
+    height: 50vw;
+    top: 20vw;
+  }
 }
 /*Desktops*/
 @media (min-width: 1301px) and (max-width: 1720px) {
