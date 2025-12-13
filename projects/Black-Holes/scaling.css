@@ -5,6 +5,8 @@
   }
   .title {
     font-size: 9vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
   }
   ul,
   ol {
@@ -51,16 +53,20 @@
     font-size: 2.1vw;
   }
   .source-h {
-    font-size: 3.3vw;
+    font-size: 2vw;
   }
   .img-div {
-    width: 30vw;
-    height: 12vw;
+    width: 28vw;
+    height: 9vw;
+  }
+  .source-div {
+    bottom: 0;
+    right: 0;
   }
   .img-1,
   .img-2,
   .img-3 {
-    width: 9vw;
+    width: 5vw;
   }
   .M87 {
     width: 22vw;
