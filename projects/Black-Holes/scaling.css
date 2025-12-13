@@ -95,14 +95,14 @@
   }
   .def-div {
     position: static;
-    width: 50vw;
+    width: 55vw;
     border-width: 0.6vw;
     border-radius: 1vw;
   }
   .origin-div {
     position: static;
     z-index: 100;
-    width: 50vw;
+    width: 55vw;
     border-width: 0.6vw;
     border-radius: 1vw;
   }
