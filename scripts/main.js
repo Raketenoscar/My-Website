@@ -8,3 +8,9 @@ function syntaxRegeln() {
 function überMich() {
   window.location.href = "/about-me.html";
 }
+function projects() {
+  window.location.href = "/projects.html";
+}
+function überMichBack() {
+  window.location.href = "/";
+}

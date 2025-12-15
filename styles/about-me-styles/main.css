@@ -27,6 +27,7 @@
 }
 .name,
 .age,
-.lang {
+.lang,
+.pro-lang {
   font-size: 1vw;
 }

@@ -1,0 +1,51 @@
+.projects-all {
+  display: flex;
+  justify-content: left;
+}
+.project-example {
+  width: 98.8vw;
+  background-color: rgba(64, 64, 64, 0.6);
+  border: 0.3vw solid rgba(64, 64, 64, 0.9);
+  border-radius: 0.9vw;
+  cursor: pointer;
+  transition: background-color 0.25s, opacity 0.15s;
+  display: flex;
+  flex-direction: row;
+}
+.project-img-div {
+  width: 22vw;
+}
+.project-img {
+  width: 100%;
+}
+.examples {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 6vw;
+}
+.project-description-div {
+  width: 22vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-description {
+  text-align: center;
+  font-size: 1vw;
+}
+.project-title {
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+.project-title-div {
+  width: 22vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-example:hover {
+  background-color: rgba(64, 64, 64, 0.9);
+}
+.project-example:active {
+  opacity: 0.8;
+}
