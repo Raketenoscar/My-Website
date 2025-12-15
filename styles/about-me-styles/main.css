@@ -9,3 +9,24 @@
   margin-top: 5vh;
   margin-bottom: 5vh;
 }
+.profile-picture {
+  width: 10vw;
+  border-radius: 5vw;
+  margin-right: 1vw;
+}
+.core-infos {
+  display: inline-block;
+  color: rgb(42, 145, 241);
+}
+.about-me-infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(37, 37, 37, 0.6);
+  border: 0.3vw solid rgba(37, 37, 37, 0.8);
+}
+.name,
+.age,
+.lang {
+  font-size: 1vw;
+}
