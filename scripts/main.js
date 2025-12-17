@@ -14,3 +14,6 @@ function projects() {
 function überMichBack() {
   window.location.href = "/";
 }
+function changelogs() {
+  window.location.href = "/changelogs.html"
+}
